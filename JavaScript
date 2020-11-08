@@ -1,0 +1,11 @@
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split(' ');
+var line = input.split('\n');
+var A = parseInt(lines.shift());
+var B = parseInt(lines.shift());
+var C = parseFloat(lines.shift());
+var D = parseInt(line.shift());
+var E = parseInt(lines.shift());
+var F = parseFloat(lines.shift());
+var G = B * C + E * F ;
+console.log("VALOR A PAGAR: R$ " + G.toFixed(2));
