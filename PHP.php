@@ -16,5 +16,4 @@ $mul = ($num2 * $num3) + ($num5 * $num6);
 
 echo "VALOR A PAGAR: R$ ".number_format($mul,2,'.','')."\n";
 
-
 ?>
