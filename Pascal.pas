@@ -15,5 +15,5 @@ begin
     read(b2);
     read(c2);
     x := b1 * c1 + b2 * c2;
-    writeln('VALOR A PAGAR: R$ ',x:-1:2);
+    writeln('VALOR A PAGAR: R$ ', x:-1:2);
 end.
